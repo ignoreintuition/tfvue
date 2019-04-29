@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="TensorFlow logo" src="./assets/logo.png">
+    <Iris msg="TensorFlow in Vue" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Iris from './components/Iris.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Iris
   }
 }
 </script>
@@ -26,3 +26,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+
